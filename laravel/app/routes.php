@@ -18,3 +18,4 @@ Route::get('/', function()
 });
 
 Route::get('/products', function() { return 'This page will contain all products sold.'; });
+Route::get('/sales', function() { return 'You will see a sales report here.'; });

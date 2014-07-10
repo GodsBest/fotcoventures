@@ -14,7 +14,7 @@
 Route::get('/', function()
 {
 	//return View::make('hello');
-        return '<h1 align="center">Coming Soon</h1><br/><br><p style="text-align:center;font-size:xx-large;color:blue;">Thanks for stopping by. We are still setting up. Come again.</p>' ;
+        return '<h1 align="center">Coming Soon</h1><br/><br><p style="text-align:center;font-size:xx-large;color:blue;border:1px solid black;padding:50px;">Thanks for stopping by. We are still setting up. Come again.</p>' ;
 });
 
 Route::get('/products', function() { return 'This page will contain all products sold.'; });

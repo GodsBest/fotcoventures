@@ -19,3 +19,32 @@ Route::get('/', function()
 
 Route::get('/products', function() { return 'This page will contain all products sold.'; });
 Route::get('/sales', function() { return 'You will see a sales report here.'; });
+Route::get('/bs3e', function() { return View::make('bs3e'); });
+Route::get('/bse', function() { return View::make('bse'); });
+Route::get('/bs', function() { return View::make('bs'); });
+
+//Tutorial recommendation
+Route::get('staging', function()
+{
+	return View::make('pages.home');
+});
+Route::get('staging/about', function()
+{
+	return View::make('pages.about');
+});
+Route::get('staging/products', function()
+{
+	return View::make('pages.products');
+});
+Route::get('staging/contact', function()
+{
+	return View::make('pages.contact');
+});
+Route::get('staging/news', function()
+{
+	return View::make('pages.news');
+});
+Route::get('staging/careers', function()
+{
+	return View::make('pages.careers');
+});

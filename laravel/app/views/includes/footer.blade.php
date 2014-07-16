@@ -1,5 +1,5 @@
 	<hr class="featurette-divider">
- 	<div class="copyright text-right">&copy; Copyright 2014 Fotco Ventures Plus</div>
+ 	<div class="copyright text-center">&copy; Copyright 2014 Fotco Ventures</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

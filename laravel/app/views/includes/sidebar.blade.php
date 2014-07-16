@@ -8,4 +8,4 @@
 		</ul>
 
 	</nav>
-	<h1 class="h1-fotco h1-fotco-90">&lt;Random Picture/Video&gt;</h1>
+	<h1 class="h1-fotco h1-fotco-90">&lt;Picture/Video&gt;</h1>

@@ -38,10 +38,6 @@
 			/* Internet Explorer */
 			filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
-			white-space: nowrap;
-           
-            margin-top:45%;
-
 		}
     </style>
     <div class="navbar-wrapper">

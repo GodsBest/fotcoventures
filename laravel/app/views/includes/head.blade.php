@@ -5,7 +5,7 @@
     <meta name="author" content="">
     <link rel="icon" href="/favicon.ico">
 
-    <title>fotco ventures plus</title>
+    <title>Fotco Ventures</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -35,4 +35,45 @@
 		h6 {
 			font-family: 'Courgette', cursive;
 		}
-	</style>
+   		
+   		/*.logo
+    	{
+    		background-image:url(/assets/img/logo.png);
+    		background-size: 50px 50px;
+    		background-repeat: no-repeat;
+    		background-position: 200 200;
+    	}*/
+    	.navbar-fotco
+    	{
+    		background-color:#cf0808;
+    		color:#fff;
+    	}
+    	.navbar-fotco a
+    	{
+    		text-decoration: none;
+    		color:white;
+    	}
+    	.navbar-fotco a:hover
+    	{
+    		color:black;
+    		text-transform: inherit;
+    	}
+    	.h1-fotco-90 
+    	{
+			/* Safari */
+			-webkit-transform: rotate(-90deg);
+
+			/* Firefox */
+			-moz-transform: rotate(-90deg);
+
+			/* IE */
+			-ms-transform: rotate(-90deg);
+
+			/* Opera */
+			-o-transform: rotate(-90deg);
+
+			/* Internet Explorer */
+			filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		}
+ 	</style>

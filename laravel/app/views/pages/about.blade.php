@@ -1,4 +1,4 @@
-@extends('layouts.sidebar')
+@extends('layouts.default')
 @section('content')
 	<div class="continer" style="height:100px;"></div>
 	<div class="container">

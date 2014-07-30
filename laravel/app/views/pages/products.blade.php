@@ -51,6 +51,9 @@
           <p><a class="btn btn-default" href="/staging/products" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
-
+	  
+	  @if( $info = fopen("http://www.denbraven.com/en/products/technologies/ms-polymers/high-tack_121/", "rb") )
+		<!--{x{ stream_get_contents( $info ) }x}-->
+	  @endif
 	</div>
 @stop

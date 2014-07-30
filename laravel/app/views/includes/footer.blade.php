@@ -7,7 +7,7 @@
     <script src="/js/bootstrap.min.js"></script>
     <script src="/assets/js/docs.min.js"></script>
     <script>
-    	$('ul.nav > li > a').on('click', function(e)
+    	/*$('ul.nav > li > a').on('click', function(e)
     	{
     		//e.preventDefault();
     		thisLi = $(this).parent();
@@ -20,5 +20,5 @@
     	toggLi = nav.filter(function() {return $(this).children('a')[0].href.split('/').pop() == route;});
     	toggLi.length != 0 || toggLi.add( nav.filter(function(){return $(this).children('a')[0].href == '/';}));
     	toggLi.is( nav.filter('.active') ) || toggLi.add( nav.filter('.active') );
-    	toggLi.toggleClass( 'active' );
+    	toggLi.toggleClass( 'active' );*/
     </script>

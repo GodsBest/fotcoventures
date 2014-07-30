@@ -76,4 +76,12 @@
 			filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 		}
+		.active
+		{
+			background-color: #f0f0f0;
+		}
+		.active > a 
+		{
+			color: #000000;
+		}
  	</style>

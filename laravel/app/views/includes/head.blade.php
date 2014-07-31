@@ -58,6 +58,14 @@
     		color:black;
     		text-transform: inherit;
     	}
+    	.navbar-toggle-fotco
+    	{
+    		background-color: #cf0808;
+    	}
+    	.navbar-toggle-fotco span.icon-bar
+    	{
+    		background-color: #fff;
+    	}
     	.h1-fotco-90 
     	{
 			/* Safari */

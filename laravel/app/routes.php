@@ -14,7 +14,7 @@
 Route::get('/', function()
 {
 	//return View::make('hello');
-        return '<h1 align="center">Coming Soon</h1><br/><br><p style="text-align:center;font-size:xx-large;color:red;border:1px solid black;padding:50px;">Thanks for stopping by. We are still setting up. Come again.</p>' ;
+        return '<div style="background-image: url(/assets/img/fotco.png);background-repeat:no-repeat;background-size: 150px 150px;width:100%;height:100%;background-color:#fff;margin:0;"><h1 align="center">Welcome to Fotco Ventures</h1><br/><br><p style="text-align:center;font-size:xx-large;color:#cf0808;padding:50px;">Thanks for stopping by. We are still setting up. Come again.</p></div>' ;
 });
 
 Route::get('/products', function() { return 'This page will contain all products sold.'; });

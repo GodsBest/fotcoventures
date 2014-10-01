@@ -61,7 +61,7 @@
         </div>
         
       <!-- Recent Works
-        =================== -->
+        =================== --
       <div class="row">
         <div class="col-md-12 block-header">
           <h2>
@@ -137,7 +137,7 @@
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

@@ -21,8 +21,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="hl text-center top-zero">None available right now</h1>
+          <h1 class="hl text-center top-zero"> No Job Openings</h1>
           <br />
+          <p class="lead text-center">Please check again later.</p>
         </div>
       </div>
       <div class="row">

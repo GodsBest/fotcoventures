@@ -34,15 +34,11 @@ Route::get('/team', array('as' => 'team', function()
 }));
 Route::get('/news', array('as' => 'news', function()
 {
-	return View::make('home');
+	return View::make('pages.menu.news');
 }));
 Route::get('/careers', array('as' => 'careers', function()
 {
 	return View::make('pages.menu.careers');
 }));
-Route::get('/productsx', function()
-{
-	return View::make('home');
-});
 
 Route::post('products/placeorder', 'ProductController@doPlaceOrder');

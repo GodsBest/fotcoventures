@@ -42,10 +42,10 @@
             <button type="submit" class="btn btn-blue">Go!</button>
           </form>
           <ul class="nav navbar-nav navbar-right hidden-xs">
-            <!-- Sign in & Sign up -->
+            <!-- Sign in & Sign up
             <li id="sign-up" class="show"><a href="sign-up.html">Sign Up</a></li>
-            <li id="sign-in" class="show"><a href="#">Sign In</a></li>
-            <!-- Signed in. Profile Menu -->
+            <li id="sign-in" class="show"><a href="#">Sign In</a></li> -->
+            <!-- Signed in. Profile Menu
             <li id="cogs-menu" class="hidden">
               <a href="edit-profile.html">
                 <i class="fa fa-gears fa-lg"></i>
@@ -61,7 +61,7 @@
                   <div class="clearfix"></div>
                 </li>
               </ul>
-            </li>
+            </li> -->
             <!-- Search Button -->
             <li id="search">
               <a href="#" id="search-btn"><i class="fa fa-search" id="search-icon"></i> Search</a>

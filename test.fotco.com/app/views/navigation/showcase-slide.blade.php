@@ -26,7 +26,7 @@
               </div>
               <div class="col-md-6 hidden-sm hidden-xs">
                 <div class="showcase">
-                  <img src="img/dash1.jpg" alt="..." class="iMac animated fadeInDown">
+                  <img src="img/Dash1.jpg" alt="..." class="iMac animated fadeInDown">
                   <img src="img/dash2.png" alt="..." class="iPad animated fadeInLeft">
                   <img src="img/dash3.png" alt="..." class="iPhone animated fadeInRight">
                 </div>

@@ -35,7 +35,7 @@
 				divfilt.html( filter.clone().attr('data-filter','*').text( 'All' ) );	
 				$.get( app.prodURL ).done(function(data)
 				{
-					console.log( $(data).find('product') );
+					//console.log( $(data).find('product') );
 					var cats = [];
 					$.each( $(data).find('product'), function(i,p)
 					{
@@ -164,7 +164,11 @@
 			{
 				$.post( app.form.attr('action'), app.form.serialize() ).done(function(data)
 				{
-					alert( data );
+					if( console )
+					{
+						console.log( data );
+					}
+						
 				});
 			};
 		})( PRODUCTS );

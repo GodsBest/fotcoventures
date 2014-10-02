@@ -1,6 +1,28 @@
 //app.js
 	$(function( $ )
 	{
+		var LINKS = {};
+		(function( app )
+		{
+			app.init = function()
+			{
+				app.bound || app.bindings();
+			};
+			app.bindings = function()
+			{
+				app.bound = true;
+				$(document).on('click', 'a[href="#"]', app.noop);
+			};
+			app.noop = function( e )
+			{
+				e.preventDefault();
+			};
+		})( LINKS );
+		LINKS.init();
+	});
+
+	$(function( $ )
+	{
 		var PRODUCTS = {};
 		(function( app )
 		{

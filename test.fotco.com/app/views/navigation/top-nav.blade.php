@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ URL::to('/') }}">Fotco Ventures</a>
+          <a class="navbar-brand fotco-logo" href="{{ URL::to('/') }}"><img src="/img/new-logo.png" width="60"/></a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">

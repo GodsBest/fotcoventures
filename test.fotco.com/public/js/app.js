@@ -12,6 +12,7 @@
 			{
 				app.bound = true;
 				$(document).on('click', 'a[href="#"]', app.noop);
+				$(document).on('submit', 'form', app.noop);
 			};
 			app.noop = function( e )
 			{

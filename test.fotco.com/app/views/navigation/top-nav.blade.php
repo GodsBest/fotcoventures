@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand fotco-logo" href="{{ URL::to('/') }}"><img src="/img/new-logo.png" width="60"/></a>
+          <a class="navbar-brand" href="{{ URL::to('/') }}"><img class="fotco-logo" src="/img/new-logo.png" width="60"/> <span class="fotco-name">fotco ventures</span></a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -30,9 +30,9 @@
             <li class="@if(str_is(Route::getCurrentRoute()->getPath(),"careers")) active @endif">
             	<a href="@if(str_is(Route::getCurrentRoute()->getPath(),"careers"))javascript:;@else{{ URL::route('careers') }}@endif">Careers</a>
             </li>
-            <!-- Profile links for extra small screens -->
+            <!-- Profile links for extra small screens
             <li class="visible-xs"><a href="sign-in.html">Sign In</a></li>
-            <li  class="visible-xs"><a href="#">Sign Out</a></li>
+            <li  class="visible-xs"><a href="#">Sign Out</a></li> -->
           </ul>
           <!-- Search form for extra small screens -->
           <form class="navbar-form navbar-left visible-xs" role="search">

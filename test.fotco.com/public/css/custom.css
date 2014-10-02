@@ -103,3 +103,12 @@
 		{
 			margin-top: -10px;
 		}
+		.fotco-name
+		{
+			border-top: 5px solid #000000;
+			padding-bottom: 10px; 
+		}
+		a:hover .fotco-name
+		{
+			border-top: 5px solid #ffffff;
+		}

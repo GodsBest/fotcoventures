@@ -145,5 +145,5 @@
 @stop
 
 @section('page-scripts')
-	<script src="/js/products.app.js"></script>
+<script src="/js/products.app.js"></script>
 @stop

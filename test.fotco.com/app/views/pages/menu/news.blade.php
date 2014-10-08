@@ -24,7 +24,7 @@
           <h1 class="hl text-center top-zero"><i class="fa fa-calendar"></i> News &amp; Events</h1>
           <br />
           <p class="lead text-center">Some Projects completed in Africa using Den braven products</p>
-	          <ul class="lead ol-fotco text-center">
+	          <ul class="lead ul-fotco text-center">
 				<li>Maputo Harbour - Mozambique</li>
 				
 				<li>OR Tambo International Airport</li>

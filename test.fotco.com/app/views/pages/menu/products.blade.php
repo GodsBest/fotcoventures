@@ -143,3 +143,7 @@
 	</div>
 	<!-- Modal -->
 @stop
+
+@section('page-scripts')
+	<script src="/js/products.app.js"></script>
+@stop

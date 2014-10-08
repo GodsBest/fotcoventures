@@ -112,3 +112,8 @@
 		{
 			border-top: 5px solid #ffffff;
 		}
+		
+		ul.ul-fotco
+		{
+		    list-style-type: none;
+		}

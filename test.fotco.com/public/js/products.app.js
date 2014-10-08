@@ -1,27 +1,4 @@
-//app.js
-	$(function( $ )
-	{
-		var LINKS = {};
-		(function( app )
-		{
-			app.init = function()
-			{
-				app.bound || app.bindings();
-			};
-			app.bindings = function()
-			{
-				app.bound = true;
-				$(document).on('click', 'a[href="#"]', app.noop);
-				$(document).on('submit', 'form', app.noop);
-			};
-			app.noop = function( e )
-			{
-				e.preventDefault();
-			};
-		})( LINKS );
-		LINKS.init();
-	});
-
+    //products.app.js
 	$(function( $ )
 	{
 		var PRODUCTS = {};
@@ -195,5 +172,5 @@
 				});
 			};
 		})( PRODUCTS );
-		$('.container.products').length === 0 || PRODUCTS.init();	
+		PRODUCTS.init();	
 	});

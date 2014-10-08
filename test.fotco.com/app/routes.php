@@ -11,34 +11,15 @@
 |
 */
 
-Route::get('/', array('as' => 'home', function()
-{
-	return View::make('pages.menu.home-slider');
-}));
-Route::get('/products', array('as' => 'products', function()
-{
-	return View::make('pages.menu.products');
-}));
+Route::get('/', array('as' => 'home', 'uses' => 'MenuController@home'));
+Route::get('/products', array('as' => 'products', 'uses' => 'MenuController@products'));
+Route::get('/about', array('as' => 'about', 'uses' => 'MenuController@about'));
+Route::get('/contact', array('as' => 'contact', 'uses' => 'MenuController@contact'));
+Route::get('/team', array('as' => 'team', 'uses' => 'MenuController@team'));
+Route::get('/news', array('as' => 'news', 'uses' => 'MenuController@news'));
+Route::get('/careers', array('as' => 'careers', 'uses' => 'MenuController@careers'));
 
-Route::get('/about', array('as' => 'about', function()
-{
-	return View::make('pages.menu.about-us');
-}));
-Route::get('/contact', array('as' => 'contact', function()
-{
-	return View::make('pages.menu.contact');
-}));
-Route::get('/team', array('as' => 'team', function()
-{
-	return View::make('pages.menu.team');
-}));
-Route::get('/news', array('as' => 'news', function()
-{
-	return View::make('pages.menu.news');
-}));
-Route::get('/careers', array('as' => 'careers', function()
-{
-	return View::make('pages.menu.careers');
-}));
+
 
 Route::post('products/placeorder', 'ProductController@doPlaceOrder');
+Route::post('message/send', 'MessageController@doSendMessage');

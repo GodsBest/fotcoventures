@@ -1,0 +1,108 @@
+@extends('layouts.default')
+@section('content')
+	<div class="continer" style="height:100px;"></div>
+	<div class="container">
+	   <h1>News & Events</h1>
+
+	   <p class="lead p-fotco">Some Projects
+
+completed in Africa 
+
+using Den braven 
+
+products</p>
+
+<ol class="lead ol-fotco">
+<li>Maputo Harbour-
+Mozambique</li>
+
+<li>OR Tambo 
+
+International Airport</li>
+
+<li>Swaziland airport</li>
+
+<li>Synergy-Botswana</li>
+
+<li>MTN-Nigeria</li>
+
+<li>Sandton Station-
+Gautrain</li>
+
+<li>Sandton city 
+
+shopping centre</li>
+
+<li>Albany Bakery-
+Durban</li>
+
+<li>Tygervalley mall</li>
+
+<li>Heineken 
+
+Brewery</li>
+
+<li>Radisson hotel-
+Cape Town</li>
+
+<li>Thokoza 
+
+Magistrate Court</li>
+
+<li>Houghton 
+
+Country Club</li>
+
+<li>Hospital-Soweto</li>
+
+<li>L’Oreal offices-
+Gauteng</li>
+
+<li>University of 
+
+Witwatersrand</li>
+
+<li>Mondi-Kwa Zulu 
+
+natal</li>
+
+<li>DUT Campus-
+Durban</li>
+
+<li>La Mercy Toll Road-
+KZN</li>
+</ol>
+
+<p class="lead p-fotco">Check out our 
+
+pocket guide
+
+http://www.denbraven.co.za/pocket-guide.html</p>
+
+<p class="lead p-fotco">Alternatively 
+
+product by pictures 
+
+for a quick view. 
+
+(Product by pictures
+
+( to be fix here ) )</p>
+
+<p class="lead p-fotco">(1.
+
+, link to charity sites,
+
+opportunities: 
+
+volunteers, mentees 
+
+are welcomed. 
+
+No job opening 
+
+currently come back 
+
+to check later</p>
+	</div>
+@stop

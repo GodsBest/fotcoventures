@@ -1,0 +1,16 @@
+  <!-- Legal 
+  ============= legal.blade.php -->
+  <div class="legal">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <p>&copy; 2014
+          <?php if(!str_is(date('Y'),'2014')): ?>
+          	 - <?php echo date('Y'); ?>
+
+          <?php endif; ?> 
+          FOTCO VENTURES. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+      </div>
+    </div>
+  </div>

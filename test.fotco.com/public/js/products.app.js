@@ -84,7 +84,7 @@
 						{name:'firstname',label:'First Name',a:{type:'text',placeholder:'John'}},
 						{name:'lastname',label:'Last Name',a:{type:'text',placeholder:'Doe'}},
 						{name:'email',label:'Email Address',a:{type:'email',placeholder:'John.Doe@Company.com'}},
-						{name:'phone',label:'Phone Number',a:{type:'tel',placeholder:'+(233) (244) 755-555'}},
+						{name:'phone',label:'Phone Number',a:{type:'tel',placeholder:'+233 (244) 755-555'}},
 						{name:'address',label:'Address',a:{type:'text'}},
 						{name:'city',label:'City/Town',a:{type:'text',placeholder:'Accra'}},
 						{name:'country',label:'Country',a:{type:'text',placeholder:'Ghana'}},
@@ -132,7 +132,8 @@
 				$.each(fld,function(i,field)
 				{
 					var field2 = (i+1 > fld.length) ? {name:'comments',label:'Comments'} : fld[i+1];
-					i%2 !== 0 || frm.append(
+					i%2 !== 0 ||
+					frm.append(
 						row.clone().append(
 							fmg.clone().append(
 								lbl.clone().text(field.label).append(': ')

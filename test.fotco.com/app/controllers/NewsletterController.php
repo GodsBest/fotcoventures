@@ -1,18 +1,18 @@
 <?php
 
-class MessageController extends BaseController 
+class NewsletterController extends BaseController 
 {
 
-	public function doSendMessage()
+	public function doSubscribe()
 	{
-		$mess = Input::get('message');
-		$data = array('key' => 'value','mess' => $mess);
-		Mail::send('emails.welcome', $data, function($message)
+		$email = Input::get('email');
+		$data = array();
+		Mail::send('newsletter.subscribe', $data, function($message) use ($email)
 		{
 		    $message
-		    ->to('peter.aganyo@rutgers.edu', 'Pete')
+		    ->to($email, $email)
 		    ->from('fotcoadm@fotcoventures.com', 'Site Admin')
-		    ->subject('Welcome to testing!');
+		    ->subject('Fotco Ventures Newletter Subscription');
 		});
 		
 		$resp = 'Message was successfully sent!';

@@ -5,7 +5,7 @@
       <ol class="carousel-indicators">
         <li data-target="#hp-slider" data-slide-to="0" class="active"></li>
         <li data-target="#hp-slider" data-slide-to="1"></li>
-        <li data-target="#hp-slider" data-slide-to="2"></li>        
+        <!--li data-target="#hp-slider" data-slide-to="2"></li-->        
       </ol>
 
       <!-- Wrapper for slides -->
@@ -15,7 +15,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-sm-12">
-                <h1 class="animated slideInDown">Fotco Ventures</h1>
+                <h1 class="animated slideInDown">Leaders In</h1>
                 <div class="list">
                   <ul>
                     <li class="animated slideInLeft first delay"><span><i class="fa fa fa-heart"></i> Charity ... </span></li>
@@ -26,7 +26,7 @@
               </div>
               <div class="col-md-6 hidden-sm hidden-xs">
                 <div class="showcase">
-                  <img src="img/dash1.jpg" alt="..." class="iMac animated fadeInDown">
+                  <img src="img/Dash1.jpg" alt="..." class="iMac animated fadeInDown">
                   <img src="img/dash2.png" alt="..." class="iPad animated fadeInLeft">
                   <img src="img/dash3.png" alt="..." class="iPhone animated fadeInRight">
                 </div>
@@ -34,17 +34,18 @@
             </div>
           </div>
         </div>
+        
         <!-- Slider #2 -->
         <div class="item">
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-sm-12">
-                <h1 class="animated slideInDown">Ready-to-go Solutions</h1>
+                <h1 class="animated slideInDown">Denbraven Products</h1>
                 <div class="list">
                   <ul>
-                    <li class="animated slideInLeft first delay"><span><i class="fa fa-dropbox"></i> <span>Works Out Of the Box.</span></li>
-                    <li class="animated slideInLeft second delay"><span><i class="fa fa-picture-o"></i> <span>New Isotope Gallery.</span></li>
-                    <li class="animated slideInLeft third delay"><span><i class="fa fa-book"></i> <span>Complete Documentation.</span></li>
+                    <li class="animated slideInLeft first delay"><span><i class="fa fa-building-o"></i> <span>Sealants ...</span></li>
+                    <li class="animated slideInLeft second delay"><span><i class="fa fa-building-o"></i> <span>Adhesives ...</span></li>
+                    <li class="animated slideInLeft third delay"><span><i class="fa fa-building-o"></i> <span>More ...</span></li>
                   </ul>
                 </div>
               </div>
@@ -56,7 +57,8 @@
             </div>
           </div>
         </div>
-        <!-- Slider #3 -->
+        
+        <!-- Slider #3
         <div class="item">
           <div class="container">
             <div class="row">
@@ -75,12 +77,13 @@
                   <img src="/img/events-training-01.jpg" alt="Events - Training" class="animated faceInDown" />
                   <!--img src="img/iMac.png" alt="..." class="iMac animated fadeInDown">
                   <img src="img/iPad.png" alt="..." class="iPad animated fadeInLeft">
-                  <img src="img/iPhone.png" alt="..." class="iPhone animated fadeInRight"-->
+                  <img src="img/iPhone.png" alt="..." class="iPhone animated fadeInRight"--
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
+        
       </div>
 
       <!-- Controls -->

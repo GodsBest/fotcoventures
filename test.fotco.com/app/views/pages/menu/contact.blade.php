@@ -25,31 +25,7 @@
           <h2 class="hl top-zero">Contact Us</h2>
           <hr>
           <p>To provide you with the best possible service, your questions, suggestions  and inquiries are welcomed through any of the following:</p>
-            {{ Form::open(array('url'=>'/mail/contact', 'method'=>'POST', 'role'=>'form', 'id'=>'fotco_contact_us_form')) }}
-              <div class="form-group">
-                <label for="email">Your email address</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email">
-              </div>
-              <div class="form-group">
-                <label for="name">Your name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter name">
-              </div>
-              <div class="form-group">
-                <label for="message">Your message</label>
-                <textarea class="form-control" rows="3" id="message" placeholder="Enter message"></textarea>
-              </div>
-              <div class="form-group">
-                <label for="exampleInputFile">Upload file</label>
-                <input type="file" id="exampleInputFile" class="form-control">
-                <p class="help-block">Attach your file here.</p>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox"> Send a copy to myself
-                </label>
-              </div>
-              <button type="submit" class="btn btn-green">Send request</button>
-            {{ Form::close() }}
+          @include('pages.forms.contact_us')
         </div>
         <!-- Right column -->
         <div class="col-sm-4">

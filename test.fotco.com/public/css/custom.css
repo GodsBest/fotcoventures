@@ -81,7 +81,7 @@
 		
 		body .product
 		{
-			min-height:550px;
+			min-height:640px;
 			background-color:#fff;
 			//padding:10px;
 			//margin:10px;
@@ -116,4 +116,9 @@
 		ul.ul-fotco
 		{
 		    list-style-type: none;
+		}
+		
+		.modal .send_request
+		{
+			display: none;
 		}

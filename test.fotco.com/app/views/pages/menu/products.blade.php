@@ -26,7 +26,7 @@
         </div>
       </div>
      </div>
-    <div class="container products">Loading .... ... please wait ....</div>
+    <div class="container products"><div class="row alert alert-warning"><i class="fa fa-spinner fa-spin fa-2x"></i> Loading .... ... please wait ....... If this takes too long, please enable JavaScript or use a different browser ....</div></div>
     <div class="container">
       <div class="row">
       	<div class="clearfix"><br/><br/><br/><br/></div>
@@ -131,7 +131,7 @@
 	        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-check-square-o"></i> Product Order Form</h4>
 	      </div>
 	      <div class="modal-body">
-	        ... Please enable JavaScript or use a different browser ....
+	        	<div class="row alert alert-warning">... Please enable JavaScript or use a different browser ....</div>
 	      </div>
 	      {{ Form::token() }}
 	      <div class="modal-footer">

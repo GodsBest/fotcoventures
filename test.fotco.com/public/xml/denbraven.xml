@@ -111,5 +111,115 @@
 			<comment></comment>
 			<more>http://www.denbraven.co.za/adhesives.html</more>
 		</product>
+		<product>
+			<category>PU Foams</category>
+			<productName>PU Foam &amp; Applicator</productName>
+			<productImage>/img/pu-foam-foam-and-applicator.jpg</productImage>
+			<description><![CDATA[<p>PU & NBS Applicator Foam B3/B2 is a one component fast curing construction foam based on moisture curing polyurethane, containing a safety propellant, with excellent gap filling capability. Precise application with the NBS applicator.</p><p>PU FOAM APPLICATOR:The PU Foam applicator is equipped with a regulator to adjust the foam output. The foam applicator provided with an adaptor for the Uni-NBS system.</p>]]></description>
+			<colors>
+			</colors>
+			<application>For ceiling joints between walls ,ceilings, floors and gaps  around pipes, windows and  door frames.</application>
+			<comment></comment>
+			<more>http://www.denbraven.co.za/pu%20foams.html</more>
+		</product>
+		<product>
+			<category>Polyurethane Sealants</category>
+			<productName>Hybriseal/Hybriflex 540</productName>
+			<productImage>/img/ps-hybriseal-hybriflex-540.jpg</productImage>
+			<description>Hybriflex LM is a one component moisture curing, low-modulus sealant and adhesive.</description>
+			<colors>
+				<color>white</color>
+				<color>grey</color>
+				<color>black</color>
+				<color>beige</color>
+			</colors>
+			<application>Interior and exterior dilatation joints in concrete. Expansion &amp; sealing joints in almost all building substrates. Joints between wooden, metal, aluminium or PVC frames and masonry.</application>
+			<comment></comment>
+			<more>http://www.denbraven.co.za/polyurethane%20sealants.html</more>
+		</product>
+		<product>
+			<category>Polyurethane Sealants</category>
+			<productName>Tecflex 3060 - 510</productName>
+			<productImage>/img/pu-tecflex-3060-510.jpg</productImage>
+			<description>Tecflex 3060 - 510 is a one component moisture curing, high-modulus adhesive. It's FREE  from isocyanates and silicones, has excellent high-tack and non sag properties, as well as excellent adhesion without primer on plastic, glass and metal. Speed curing time and short cut-off string. It's non conductive and non corrosive.</description>
+			<colors>
+				<color>white</color>
+				<color>black</color>
+			</colors>
+			<application> Bonding and sealing of fixed glass and body parts in automotive, trucks, busses, aeronautical and marine industry, farm and construction equipments. High tack glue for building material on interior and exterior.</application>
+			<comment></comment>
+			<more>http://www.denbraven.co.za/polyurethane%20sealants.html</more>
+		</product>
+		<product>
+			<category>Acetic Cure Sealants</category>
+			<productName>Silicone Sanitary</productName>
+			<productImage>/img/acs-silicone-sanitary.jpg</productImage>
+			<description>Silicone Sanitary is a high quality fungal resistant elastic sealant based on polysiloxanes (acid curing) which is waterproof, resistant to moisture, detergents and household chemicals, and has good adhesion to many surfaces (without primer).</description>
+			<colors>
+				<color>clear</color>
+				<color>white</color>
+			</colors>
+			<application> For sealing joints and cracks in bathrooms, shower cubicles, kitchens and utility rooms.</application>
+			<comment></comment>
+			<more>http://www.denbraven.co.za/acetic%20cure%20sealants.html</more>
+		</product>
+		<product>
+			<category>Acetic Cure Sealants</category>
+			<productName>Silicone-1001U Professional</productName>
+			<productImage>/img/acs-silicone-1001u-professional.jpg</productImage>
+			<description>Silicone - 1001U Professional is a high quality, ready-to-use elastic sealant based on polysiloxanes (acid curing) with a very good adhesion to many surfaces. Excellent UV and weather resistance.</description>
+			<colors>
+				<color>clear</color>
+				<color>white</color>
+				<color>grey</color>
+				<color>aluminium</color>
+				<color>black</color>
+				<color>bronze</color>
+			</colors>
+			<application> Sealing joints around buildings, industrial and fenestration applications.</application>
+			<comment></comment>
+			<more>http://www.denbraven.co.za/acetic%20cure%20sealants.html</more>
+		</product>
+		<product>
+			<category>Acetic Cure Sealants</category>
+			<productName>Gasket Sealant</productName>
+			<productImage>/img/acs-gasket-sealant.jpg</productImage>
+			<description>Gasket Sealant is a high quality one component durable elastic sealant, based on polysiloxanes (acid curing) with very good temperature resistance up to 300 &#176;C. Easy to apply, with good adhesion.</description>
+			<colors>
+				<color>red</color>
+			</colors>
+			<application> For forming in gasket applications, sealing and bonding, automotive, sealing of industrial ovens, and sealing of joints where extremely high temperature resistance is required.</application>
+			<comment></comment>
+			<more>http://www.denbraven.co.za/acetic%20cure%20sealants.html</more>
+		</product>
+		<product>
+			<category>Neutral Cure Sealants</category>
+			<productName>Silicone-NO</productName>
+			<productImage>/img/ncs-silicone-no.jpg</productImage>
+			<description>Silicone-NO is a high quality neutral curing fungal resistant, durable, elastic sealant based on polysiloxanes, with excellent adhesion on many surfaces (without primer). Has good UV and weather resistance. Silicone-NO complies with most international standards.</description>
+			<colors>
+				<color>clear</color>
+				<color>white</color>
+				<color>grey</color>
+				<color>black</color>
+				<color>bronze</color>
+				<color>beige</color>
+			</colors>
+			<application> For sealing joints where mildew is undesirable. Suitable as a perimeter and weather sealant. For sealing joints in glazing systems, buildings and general construction industry.</application>
+			<comment></comment>
+			<more>http://www.denbraven.co.za/neutral%20cure%20sealants.html</more>
+		</product>
+		<product>
+			<category>Neutral Cure Sealants</category>
+			<productName>Silicone Structural Glazing</productName>
+			<productImage>/img/ncs-silicone-structural-glazing.jpg</productImage>
+			<description>Silicone Structural Glazing Sealant is a one-component, high-strength neutral cure sealant specially designed and tested for structurally glazed curtain wall applications.</description>
+			<colors>
+				<color>black</color>
+			</colors>
+			<application>All structural glazing applications such as in-shop or field glazing or curtain wall modules where glass lights are attached to the metal framing system with a structural sealant. Can also be used as a weatherseal in glass to glass butt joints and as a top sealant in glazing systems.</application>
+			<comment></comment>
+			<more>http://www.denbraven.co.za/neutral%20cure%20sealants.html</more>
+		</product>
 	</products>
 </fotco>

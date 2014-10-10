@@ -21,6 +21,6 @@ Route::get('/careers', array('as' => 'careers', 'uses' => 'MenuController@career
 
 
 
-Route::post('products/placeorder', 'ProductController@doPlaceOrder');
-Route::post('message/send', 'MessageController@doSendMessage');
-Route::post('newsletter/subscribe', 'NewsletterController@doSubscribe');
+Route::post('products/placeorder', array('as' => 'place_order', 'uses' => 'ProductController@doPlaceOrder'));
+Route::post('message/send', array('as' => 'send_message', 'uses' => 'MessageController@doSendMessage'));
+Route::post('newsletter/subscribe', array('as' => 'subscribe', 'uses' => 'NewsletterController@doSubscribe'));

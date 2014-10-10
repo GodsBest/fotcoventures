@@ -20,6 +20,7 @@
 				$(document).on('click', '.submit[data-form]', app.submitForm);
 				app.form.on('submit', app.sendEmail);
 				app.subscribe.on('submit',app.newsletterSubscribe);
+				app.modal.on('show.bs.modal', app.hideButton);
 			};
 			app.noop = function( e )
 			{
@@ -55,7 +56,10 @@
 					console.log( resp );
 				});
 			};
-				
+			app.hideButton = function()
+			{
+				app.modal.find('.send-request').hide();
+			};	
 		})( LINKS );
 		LINKS.init();
 	});

@@ -54,8 +54,11 @@
           </p>
           <div class="info-board info-board-blue info-board-right">
             <h4>Important info</h4>
-            <p>We are excited to announce the arrival of Denbraven Sealants in Ghana. Fotco Ventures is the only distributor of Danbraven Sealants in Ghana and the whole of West Africa.</p>
+            <p>We are excited to announce the arrival of Denbraven Sealants in Ghana. Fotco Ventures is the only distributor of Denbraven Sealants in Ghana and the whole of West Africa.</p>
           </div>
+          <a class="btn btn-lg btn-success" href="/assets/Den Braven Pocket Guide.pdf">
+          	<i class="fa fa-download fa-2x pull-left"></i> Click Here For The<br>Pocket Guide
+          </a>
         </div>
         
       <!-- Recent Works

@@ -18,6 +18,8 @@
 				$(document).on('click', 'li.product', app.openOrderForm);
 				$(document).on('click', 'img[data-color]', app.selectColor);
 				$('#place_order_now').on('click', app.placeOrderNow);
+				$(document).on('input', ':input', app.removeAlert);
+				$(document).on('click', 'a.btn', app.showActiveButton);
 			};
 			app.setUp = function()
 			{
@@ -32,7 +34,7 @@
 					spantxt = $('<span/>',{class:'gallery-text'}),
 					imgresp = $('<img/>',{class:'img-responsive'}),
 					spantit = $('<span/>',{class:'gallery-title'});
-				divfilt.html( filter.clone().attr('data-filter','*').text( 'All' ) );	
+				divfilt.html( filter.clone().attr('data-filter','*').addClass( 'active' ).text( 'All' ) );	
 				$.get( app.prodURL ).done(function(data)
 				{
 					//console.log( $(data).find('product') );
@@ -69,6 +71,7 @@
 					});
 					app.container.html( divfilt ).append( pcontainer );
 					Isotope.init();
+					$('a.btn.btn-default').on('click', app.showActiveButton);
 				});
 			};
 			app.openOrderForm = function()
@@ -105,27 +108,31 @@
 				        {
 				            firstname: 
 				            {
-				                validators: { notEmpty: { message: 'The First Name is required' } }
+				                validators: { notEmpty: { message: 'The First Name is required!' } }
 				            },
 				            lastname:
 				            {
-					         	validators: { notEmpty: { message: 'The Last Name is required' } }   
+					         	validators: { notEmpty: { message: 'The Last Name is required!' } }   
 				            },
 				            email:
 				            {
 					            validators:
 					            {
-						            notEmpty: { message: 'The E-Mail Address is required' },
-						            emailAddress: { message: 'Please enter a valid E-mail Address' }
+						            notEmpty: { message: 'The E-Mail Address is required!' },
+						            emailAddress: { message: 'Please enter a valid E-mail Address!' }
 					            }
 				            },
 				            phone:
 				            {
-					         	validators: { notEmpty: { message: 'The Phone Number is required' } }   
+					         	validators: { notEmpty: { message: 'The Phone Number is required!' } }   
 				            },
 				            colour:
 				            {
-					         	validators: { notEmpty: { message: 'The Colour is required' } }   
+					         	validators: { notEmpty: { message: 'The Colour is required!' } }   
+				            },
+				            quantity:
+				            {
+					         	validators: { notEmpty: { message: 'The Quantity is required!' } }   
 				            }
 			            }
 					};
@@ -155,7 +162,7 @@
 				app.form = $(frm);
 				app.form.bootstrapValidator( validation_rules )
 				.append( $(':hidden[name=_token]',app.modal) );
-				$('img[data-color]',app.modal)[0].click();
+				$('img[data-color]',app.modal).each(function() { this.click(); });
 			};
 			app.selectColor = function()
 			{
@@ -163,14 +170,32 @@
 			};
 			app.placeOrderNow = function()
 			{
-				$.post( app.form.attr('action'), app.form.serialize() ).done(function(data)
+				app.form.data( 'bootstrapValidator' ).validate();
+				if( app.form.data( 'bootstrapValidator' ).isValid() )
 				{
-					if( console )
+					$.post( app.form.attr('action'), app.form.serialize() ).done(function(data)
 					{
-						console.log( data );
-					}
-						
-				});
+						if( console )
+						{
+							console.log( data );
+						}
+							
+					});
+				}
+				else
+				{
+					$('<div/>',{class:'row alert alert-danger error',text:'Please provide all the required information below!'})
+					.prependTo( app.form );
+				}
+			};
+			app.removeAlert = function()
+			{
+				$('div.row.alert.error').remove();
+			};
+			app.showActiveButton = function()
+			{
+				$(this).parent().children('.active').removeClass( 'active' );
+				$(this).addClass( 'active' );
 			};
 		})( PRODUCTS );
 		PRODUCTS.init();	

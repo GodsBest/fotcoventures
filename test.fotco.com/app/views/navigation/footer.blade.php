@@ -61,7 +61,7 @@
                 <div class="col-sm-8">
                   <div class="input-group">
                     <label class="sr-only" for="subscribe-email">Email address</label>
-                    <input type="email" name="email" class="form-control" id="subscribe-email" placeholder="Enter email">
+                    <input type="email" name="email" autocomplete="off" class="form-control" id="subscribe-email" placeholder="Enter email">
                     <span class="input-group-btn">
                       <button type="submit" class="btn btn-default">OK</button>
                     </span>

@@ -17,7 +17,7 @@
 				Bachlaan 65,5654 HN,Eindoven,<br>
 				The Netherlands <br><br>
 				<strong>BY PHONE:</strong><br> 
-	            Ghana: 0208177979, 0208408080 <br>
+	            Ghana: 0208177979, 0208408080<br>
 				Netherland: 0031(0)681898028<br>
 	            Email: <a href="mailto:fotcovgp@gmail.com">fotcovgp@gmail.com</a> or <a href="mailto:fotcovgp@yahoo.com">fotcovgp@yahoo.com</a>
           	</p>
@@ -62,7 +62,7 @@
                 <div class="col-sm-8">
                   <div class="input-group">
                     <label class="sr-only" for="subscribe-email">Email address</label>
-                    <input type="email" class="form-control" id="subscribe-email" placeholder="Enter email">
+                    <input type="email" name="email" autocomplete="off" class="form-control" id="subscribe-email" placeholder="Enter email">
                     <span class="input-group-btn">
                       <button type="submit" class="btn btn-default">OK</button>
                     </span>

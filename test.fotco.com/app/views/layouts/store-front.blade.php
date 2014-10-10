@@ -49,38 +49,14 @@
 	    <div class="modal-content">
 	      <div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-	        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-envelope-o"></i> Send E-Mail Form</h4>
+	        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-envelope-o"></i> CONTACT US</h4>
 	      </div>
 	      <div class="modal-body">
-	      	{{ Form::open(array('url' => '/message/send','method' => 'POST', 'role' => 'form', 'id' => 'send_email_form')) }}
-	          <div class="form-group">
-                <label for="email">Your email address</label>
-                <input type="email" class="form-control" name="email" placeholder="Enter email">
-              </div>
-              <div class="form-group">
-                <label for="name">Your name</label>
-                <input type="text" class="form-control" name="name" placeholder="Enter name">
-              </div>
-              <div class="form-group">
-                <label for="message">Your message</label>
-                <textarea class="form-control" rows="3" name="message" placeholder="Enter message"></textarea>
-              </div>
-              <div class="form-group">
-                <label for="exampleInputFile">Upload file</label>
-                <input type="file" name="exampleInputFile" class="form-control">
-                <p class="help-block">Attach your file here.</p>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox"> Send a copy to myself
-                </label>
-              </div>
-	        {{ Form::close() }}
+		  	@include('pages.forms.contact_us')
 	      </div>
-	      {{ Form::token() }}
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	        <button type="button" class="btn btn-primary submit" data-form="#send_email_form">Send Email</button>
+	        <button type="button" class="btn btn-primary submit" data-form="#send_email_form">Send Request</button>
 	      </div>
 	    </div>
 	  </div>

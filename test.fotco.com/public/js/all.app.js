@@ -21,6 +21,7 @@
 				app.form.on('submit', app.sendEmail);
 				app.subscribe.on('submit',app.newsletterSubscribe);
 				app.modal.on('show.bs.modal', app.hideButton);
+				$('#view_pocket_guide').on('show.bs.modal', app.showImage);
 			};
 			app.noop = function( e )
 			{
@@ -59,6 +60,11 @@
 			app.hideButton = function()
 			{
 				app.modal.find('.send-request').hide();
+			};
+			app.showImage = function( e )
+			{
+				
+				$(this).find('.modal-body').addClass( 'text-center' ).html( $('<img/>',{src:$(e.relatedTarget).data('image'),width:$(this).find('.modal-dialog').width() * 0.9}) );
 			};	
 		})( LINKS );
 		LINKS.init();

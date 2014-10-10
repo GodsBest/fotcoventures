@@ -10,35 +10,6 @@
     <div class="container">
       <!-- Services
         ================ -->
-      <!--div class="row">
-        <div class="col-md-12">
-          <div class="services">
-            <ul>
-                <li>
-                  <i class="fa fa-briefcase fa-3x"></i>
-                  <p>Lorem ipsum dolor sit amet<br /><a href="#">Action...</a></p>
-                </li>
-                <li>
-                  <i class="fa fa-cloud-upload fa-3x"></i>
-                  <p>Lorem ipsum dolor sit amet<br /><a href="#">Action...</a></p>
-                </li>
-                <li>
-                  <i class="fa fa-laptop fa-3x"></i>
-                  <p>Lorem ipsum dolor sit amet<br /><a href="#">Action...</a></p>
-                </li>
-                <li>
-                  <i class="fa fa-gears fa-3x"></i>
-                  <p>Lorem ipsum dolor sit amet<br /><a href="#">Action...</a></p>
-                </li>
-                <li>
-                  <i class="fa fa-compass fa-3x"></i>
-                  <p>Lorem ipsum dolor sit amet<br /><a href="#">Action...</a></p>
-                </li>
-            </ul>
-            <div class="clearfix"></div>
-          </div>
-        </div>
-      </div-->
       <div class="row">
         <!-- Welcome message
             ================= -->
@@ -58,90 +29,35 @@
             <h4>Important info</h4>
             <p>We are excited to announce the arrival of Denbraven Sealants in Ghana. Fotco Ventures is the only distributor of Denbraven Sealants in Ghana and the whole of West Africa.</p>
           </div>
-          <a class="btn btn-lg btn-success" href="/assets/Den Braven Pocket Guide.pdf">
-          	<i class="fa fa-download fa-2x pull-left"></i> Click Here For The<br> Pocket Guide
+          <a class="btn btn-lg btn-success" data-toggle="modal" href="#view_pocket_guide" data-image="/img/Den-Braven-Pocket-Guide.png">
+          	<i class="fa fa-eye fa-2x pull-left"></i> Click Here For The<br> Pocket Guide
+          </a>
+          <a class="btn btn-lg btn-success" data-toggle="modal" href="#view_pocket_guide" data-image="/img/pocket-guide.png">
+          	<i class="fa fa-eye fa-2x pull-left"></i> Click Here To View The<br>Product Pocket Guide
           </a>
         </div>
         
-      <!-- Recent Works
-        =================== --
-      <div class="row">
-        <div class="col-md-12 block-header">
-          <h2>
-            <span class="title">Recent Works</span><span class="decoration"></span><span class="decoration"></span><span class="decoration"></span>
-          </h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="thumbnail">
-            <img src="img/works1.jpg" class="img-responsive" alt="...">
-            <div class="visit"><a href="#"><i class="fa fa-question-circle"></i> More details...</a></div>
-            <div class="caption">
-              <h4>Project #1</h4>
-                <div class="rating">
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i>
-                </div>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="thumbnail">
-            <img src="img/works2.jpg" class="img-responsive" alt="...">
-            <div class="visit"><a href="#"><i class="fa fa-question-circle"></i> More details...</a></div>
-            <div class="caption">
-              <h4>Project #2</h4>
-                <div class="rating">
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i> 
-                </div>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-            </div>
-          </div>
-        </div>
-        <div class="clearfix visible-sm"></div>
-        <div class="col-md-3 col-sm-6">
-          <div class="thumbnail">
-            <img src="img/works3.jpg" class="img-responsive" alt="...">
-            <div class="visit"><a href="#"><i class="fa fa-question-circle"></i> More details...</a></div>
-            <div class="caption">
-              <h4>Project #3</h4>
-                <div class="rating">
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star-half"></i>
-                </div>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="thumbnail">
-            <img src="img/works4.jpg" class="img-responsive" alt="...">
-            <div class="visit"><a href="#"><i class="fa fa-question-circle"></i> More details...</a></div>
-            <div class="caption">
-              <h4>Project #4</h4>
-                <div class="rating">
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i> 
-                  <i class="fa fa-star"></i>
-                </div>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
   </div>
+        
+		<!-- Modal -->
+		<div class="modal fade" id="view_pocket_guide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-book"></i> Den Braven Product Pocket Guide</h4>
+		      </div>
+		      <div class="modal-body">
+			  	   .... Loading ... .. .
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Modal -->  
+        
 @stop

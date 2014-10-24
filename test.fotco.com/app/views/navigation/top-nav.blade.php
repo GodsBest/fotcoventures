@@ -15,8 +15,16 @@
             <li class="@if(str_is(Route::getCurrentRoute()->getPath(),"/")) active @endif">
               <a href="@if(str_is(Route::getCurrentRoute()->getPath(),"/"))javascript:;@else{{ URL::route('home') }}@endif">Home</a>
             </li>
-            <li class="@if(str_is(Route::getCurrentRoute()->getPath(),"products")) active @endif">
-              	<a href="@if(str_is(Route::getCurrentRoute()->getPath(),"products"))javascript:;@else{{ URL::route('products') }}@endif">Products</a>
+            <li class="@if(str_is(Route::getCurrentRoute()->getPath(),"products")) dropdown active @endif">
+              	<a href="@if(str_is(Route::getCurrentRoute()->getPath(),"products"))javascript:;@else{{ URL::route('products') }}@endif" @if(str_is(Route::getCurrentRoute()->getPath(),"products")) data-toggle="dropdown" class="dropdown-toggle" @endif>Products @if(str_is(Route::getCurrentRoute()->getPath(),"products")) <b class="caret"></b> @endif</a>
+			    @if(str_is(Route::getCurrentRoute()->getPath(),"products"))
+              	<ul class="dropdown-menu">
+			        <li><a href="#distribution" class="active">Distribution</a></li> 
+			        <li><a href="#housing" class="">Housing</a></li>
+			        <li><a href="#consultancy" class="">Consultancy</a></li>
+			        <li><a href="#charity" class="">Charity</a></li>
+			    </ul>
+			    @endif             	
             </li>
             <li class="@if(str_is(Route::getCurrentRoute()->getPath(),"about") || str_is(Route::getCurrentRoute()->getPath(),"team")) active @endif">
               	<a href="@if(str_is(Route::getCurrentRoute()->getPath(),"about"))javascript:;@else{{ URL::route('about') }}@endif">About us</a>

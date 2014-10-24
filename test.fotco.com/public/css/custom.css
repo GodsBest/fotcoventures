@@ -118,7 +118,15 @@
 		    list-style-type: none;
 		}
 		
-		.modal .send_request
+		.modal .send_request, .modal .ordernow
 		{
 			display: none;
+		}
+		
+		.ordernow
+		{
+			position: absolute;
+			margin-top: 3%;
+			opacity: 0.95;
+			margin-left: 3%;
 		}

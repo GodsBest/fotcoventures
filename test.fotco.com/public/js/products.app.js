@@ -33,7 +33,8 @@
 					spantmb = $('<span/>',{class:'gallery-thumnail'}),
 					spantxt = $('<span/>',{class:'gallery-text'}),
 					imgresp = $('<img/>',{class:'img-responsive'}),
-					spantit = $('<span/>',{class:'gallery-title'});
+					spantit = $('<span/>',{class:'gallery-title'}),
+					ordernow = $('<button/>',{class:'btn btn-success ordernow',text:'Order Now'});
 				divfilt.html( filter.clone().attr('data-filter','*').addClass( 'active' ).text( 'All' ) );	
 				$.get( app.prodURL ).done(function(data)
 				{
@@ -63,6 +64,8 @@
 											return $('<img/>',{src:'/img/' + $(color).text().trim() + '.png','data-color':$(color).text().trim()});
 										})
 									)
+								).prepend(
+									ordernow.clone()
 								)
 							)						
 						);
@@ -170,6 +173,7 @@
 			};
 			app.placeOrderNow = function()
 			{
+				$('#order_error').remove();
 				app.form.data( 'bootstrapValidator' ).validate();
 				if( app.form.data( 'bootstrapValidator' ).isValid() )
 				{
@@ -184,7 +188,7 @@
 				}
 				else
 				{
-					$('<div/>',{class:'row alert alert-danger error',text:'Please provide all the required information below!'})
+					$('<div/>',{id:'order_error',class:'row alert alert-danger error',text:'Please provide all the required information below!'})
 					.prependTo( app.form );
 				}
 			};

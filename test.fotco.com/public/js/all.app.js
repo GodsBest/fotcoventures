@@ -64,7 +64,7 @@
 			app.showImage = function( e )
 			{
 				
-				$(this).find('.modal-body').addClass( 'text-center' ).html( $('<img/>',{src:$(e.relatedTarget).data('image'),width:$(this).find('.modal-dialog').width() * 0.9}) );
+				$(this).find('.modal-body').addClass( 'text-center' ).html( $('<img/>',{src:$(e.relatedTarget).data('image'),width:$(this).find('.modal-dialog').width() * 1.3}).css('margin-left','-16%') );
 			};	
 		})( LINKS );
 		LINKS.init();

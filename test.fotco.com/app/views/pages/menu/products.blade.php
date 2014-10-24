@@ -4,6 +4,17 @@
 	Products &amp; Services
 @stop
 
+@section('page-submenu')
+<nav class="col-md-12 navbar" id="nav_spy">
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#distribution" class="active">Distribution</a></li> 
+        <li><a href="#housing" class="">Housing</a></li>
+        <li><a href="#consultancy" class="">Consultancy</a></li>
+        <li><a href="#charity" class="">Charity</a></li>
+    </ul>
+</nav>
+@stop
+
 @section('content')    
 <!-- Main body
 ================== -->
@@ -18,8 +29,9 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
+	 <div class="container">
+      <div class="row" id="distribution">
+      	<div class="clearfix"><br/><br/><br/><br/></div>
         <div class="col-md-12">
           <h1 class="hl text-center top-zero"><i class="fa fa-plane"></i> Distribution &amp; Export</h1>
           <p class="lead text-center">Export and distribution of Den braven Sealants throughout West Africa. For more information, visit the <a href="http://www.denbraven.com/en/" target="_blank">Netherlands site</a> and <a href="http://www.denbraven.co.za/" target="_blank">South Africa site</a>.</p>
@@ -28,14 +40,14 @@
      </div>
     <div class="container products"><div class="row alert alert-warning"><i class="fa fa-spinner fa-spin fa-2x"></i> Loading .... ... please wait ....... If this takes too long, please enable JavaScript or use a different browser ....</div></div>
     <div class="container">
-      <div class="row">
+      <div class="row" id="housing">
       	<div class="clearfix"><br/><br/><br/><br/></div>
         <div class="col-md-12">
           <h1 class="hl text-center top-zero"><i class="fa fa-building-o"></i> Housing</h1>
           <p class="lead text-center">Estate housing projects in Ghana.</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="consultancy">
       	<div class="clearfix"><br/><br/><br/><br/></div>
         <div class="col-md-12">
           <h1 class="hl text-center top-zero"><i class="fa fa-briefcase"></i> Consultancy</h1>
@@ -83,7 +95,7 @@
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="charity">
       	<div class="clearfix"><br/><br/><br/><br/></div>
         <div class="col-md-12">
           <h1 class="hl text-center top-zero"><i class="fa fa-heart"></i> Charity</h1>

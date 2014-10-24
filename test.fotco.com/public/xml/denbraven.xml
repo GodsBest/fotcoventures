@@ -221,5 +221,41 @@
 			<comment></comment>
 			<more>http://www.denbraven.co.za/neutral%20cure%20sealants.html</more>
 		</product>
+		<product>
+			<category> Miscellaneous</category>
+			<productName> Manual caulking gun </productName>
+			<productImage>/img/MK5-H310-gun.jpg</productImage>
+			<description> Zwaluw MK5 H310 is a closed, manual gun for foil packs of up to 310 ml. Pressure provided by not serrated releasing bar on the back of the gun.</description>
+			<colors>
+				<color>brown</color>
+			</colors>
+			<application> For the application of a variety of sealants and adhesives using cartridges or foil packs. </application>
+			<comment></comment>
+			<more>http://www.denbraven.co.za/diy%20applicators.html</more>
+		</product>		
+		<product>
+			<category> Miscellaneous</category>
+			<productName> HKS12 Metal</productName>
+			<productImage>/img/HKS12-Metal.jpg</productImage>
+			<description>Zwaluw HKS12 Metal is a lightweight open manual caulking gun for 310 ml cartridges. Drip-free thanks to automatic stop in hand grip. </description>
+			<colors>
+				<color>orange</color>
+			</colors>
+			<application> For the application of a variety of sealants and adhesives using cartridges or foil packs. </application>
+			<comment></comment>
+			<more>http://www.denbraven.co.za/diy%20applicators.html</more>
+		</product>		
+		<product>
+			<category> Miscellaneous</category>
+			<productName> Polyethylene Backing Cord </productName>
+			<productImage>/img/Backer-Rod.jpg</productImage>
+			<description>Zwaluw Backer Rod is a round open-(polyurethane) or closed-cell (polyethylene) foam rod used to fill joints between building materials to make sure the joint sealant will reach its correct dimension in width and depth. Zwaluw Backer Rod can be delivered in various diameters, 0 6 till 50 mm.</description>
+			<colors>
+				<color>grey</color>
+			</colors>
+			<application> Zwaluw Backer Rod can be used in construction and expansion joints to achieve the right joint-dimensions and to prevent a three-sided adhesion of the sealant. </application>
+			<comment></comment>
+			<more>http://denbraven.com/en/products/technologies/external-trading-products/backer-rod_367/</more>
+		</product>
 	</products>
 </fotco>

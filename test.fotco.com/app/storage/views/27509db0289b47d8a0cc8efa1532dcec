@@ -15,8 +15,16 @@
             <li class="<?php if(str_is(Route::getCurrentRoute()->getPath(),"/")): ?> active <?php endif; ?>">
               <a href="<?php if(str_is(Route::getCurrentRoute()->getPath(),"/")): ?>javascript:;<?php else: ?><?php echo URL::route('home'); ?><?php endif; ?>">Home</a>
             </li>
-            <li class="<?php if(str_is(Route::getCurrentRoute()->getPath(),"products")): ?> active <?php endif; ?>">
-              	<a href="<?php if(str_is(Route::getCurrentRoute()->getPath(),"products")): ?>javascript:;<?php else: ?><?php echo URL::route('products'); ?><?php endif; ?>">Products</a>
+            <li class="<?php if(str_is(Route::getCurrentRoute()->getPath(),"products")): ?> dropdown active <?php endif; ?>">
+              	<a href="<?php if(str_is(Route::getCurrentRoute()->getPath(),"products")): ?>javascript:;<?php else: ?><?php echo URL::route('products'); ?><?php endif; ?>" <?php if(str_is(Route::getCurrentRoute()->getPath(),"products")): ?> data-toggle="dropdown" class="dropdown-toggle" <?php endif; ?>>Products <?php if(str_is(Route::getCurrentRoute()->getPath(),"products")): ?> <b class="caret"></b> <?php endif; ?></a>
+			    <?php if(str_is(Route::getCurrentRoute()->getPath(),"products")): ?>
+              	<ul class="dropdown-menu">
+			        <li><a href="#distribution" class="active">Distribution</a></li> 
+			        <li><a href="#housing" class="">Housing</a></li>
+			        <li><a href="#consultancy" class="">Consultancy</a></li>
+			        <li><a href="#charity" class="">Charity</a></li>
+			    </ul>
+			    <?php endif; ?>             	
             </li>
             <li class="<?php if(str_is(Route::getCurrentRoute()->getPath(),"about") || str_is(Route::getCurrentRoute()->getPath(),"team")): ?> active <?php endif; ?>">
               	<a href="<?php if(str_is(Route::getCurrentRoute()->getPath(),"about")): ?>javascript:;<?php else: ?><?php echo URL::route('about'); ?><?php endif; ?>">About us</a>

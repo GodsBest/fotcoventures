@@ -1,4 +1,0 @@
-<p>Dear <?php echo $key; ?>,<br>
-<br/>
-<?php echo $mess; ?><br/>
-</p>

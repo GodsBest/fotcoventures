@@ -1,0 +1,132 @@
+	    h1.fotco,
+		h2.fotco,
+		h3.fotco,
+		h4.fotco,
+		h5.fotco,
+		h6.fotco 
+		{
+			font-family: 'Courgette', cursive;
+		}
+   		
+   		.logo
+    	{
+    		background-image:url(/assets/img/fotco.png);
+    		background-size: 350px 350px;
+    		background-repeat: no-repeat;
+    		background-position: -200 -200;
+    	}
+    	.navbar-fotco
+    	{
+    		background-color:#cf0808;
+    		color:#fff;
+    	}
+    	.navbar-fotco a
+    	{
+    		text-decoration: none;
+    		color:white;
+    	}
+    	.navbar-fotco a:hover
+    	{
+    		color:black;
+    		text-transform: inherit;
+    	}
+    	.navbar-toggle-fotco
+    	{
+    		background-color: #cf0808;
+    	}
+    	.navbar-toggle-fotco span.icon-bar
+    	{
+    		background-color: #fff;
+    	}
+    	.h1-fotco-90 
+    	{
+			/* Safari */
+			-webkit-transform: rotate(-90deg);
+
+			/* Firefox */
+			-moz-transform: rotate(-90deg);
+
+			/* IE */
+			-ms-transform: rotate(-90deg);
+
+			/* Opera */
+			-o-transform: rotate(-90deg);
+
+			/* Internet Explorer */
+			filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		}
+		.activex
+		{
+			background-color: #f0f0f0;
+		}
+		.activex > a 
+		{
+			color: #000000;
+		}
+		.bg-fotco
+		{
+			background-image: url(/assets/img/logo.png);
+		}
+		.nav-fotco
+		{
+			text-align: center;
+			//border: 1px solid white;
+		}
+		
+		body .footer-fotco
+		{
+			background-color: #3DAF2C;
+		}
+		
+		body .product
+		{
+			min-height:640px;
+			background-color:#fff;
+			//padding:10px;
+			//margin:10px;
+			border: 1px solid #ccc;
+		}
+		
+		body img[data-color]
+		{
+			cursor:pointer;
+			border:1px solid #fff;
+		}
+		
+		body img[data-color]:hover
+		{
+			border:1px dashed #fdb975;
+		}
+		
+		.fotco-logo
+		{
+			margin-top: -10px;
+		}
+		.fotco-name
+		{
+			border-top: 5px solid #000000;
+			padding-bottom: 10px; 
+		}
+		a:hover .fotco-name
+		{
+			border-top: 5px solid #ffffff;
+		}
+		
+		ul.ul-fotco
+		{
+		    list-style-type: none;
+		}
+		
+		.modal .send_request, .modal .ordernow
+		{
+			display: none;
+		}
+		
+		.ordernow
+		{
+			position: absolute;
+			margin-top: 3%;
+			opacity: 0.95;
+			margin-left: 3%;
+		}

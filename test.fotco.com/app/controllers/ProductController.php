@@ -34,6 +34,11 @@ class ProductController extends BaseController
 			else
 			{
 				$customer = new Customer;
+				$customer->firstname = Input::get('firstname');
+				$customer->lastname  = Input::get('lastname');
+				$customer->email     = Input::get('email');
+				$customer->phone     = Input::get('phone');
+				$customer->save();
 			}
 			return Response::json( Input::all() );
 		}

@@ -181,6 +181,7 @@
 					{
 						if( console )
 						{
+							console.log( app.form );
 							console.log( data );
 						}
 							

@@ -38,8 +38,17 @@ class ProductController extends BaseController
 				$customer->lastname  = Input::get('lastname');
 				$customer->email     = Input::get('email');
 				$customer->phone     = Input::get('phone');
+				$customer->address   = Input::get('address');
+				$customer->city      = Input::get('city');
+				$customer->country   = Input::get('country');
 				$customer->save();
 			}
+			$order = new Order;
+			$order->customer_id = $customer->id;
+			$order->color    = Input::get('color');
+			$order->quantity = Input::get('quantity');
+			$order->product  = Input::get('product');
+			$order->save();
 			return Response::json( Input::all() );
 		}
 	}

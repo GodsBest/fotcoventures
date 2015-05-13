@@ -65,7 +65,7 @@
 										})
 									)
 								).prepend(
-									ordernow.clone()
+									ordernow.clone().data('product',nam)
 								)
 							)						
 						);
@@ -159,12 +159,14 @@
 						)
 					);	
 				});
+				alert( $(this).data('product') );
 				app.modal.find('div.modal-body')
 				.html( row.clone().html( $('a',this).html() ) ).find('>div.row > span').addClass('col-sm-6').end()
 				.prepend( frm ).end().modal('show');				
 				app.form = $(frm);
 				app.form.bootstrapValidator( validation_rules )
-				.append( $(':hidden[name=_token]',app.modal) );
+				.append( $(':hidden[name=_token]',app.modal) )
+				.append( $('<input/>',{type:'hidden',name:'product'}).val( $(thi).data('product') ) );
 				$('img[data-color]',app.modal).each(function() { this.click(); });
 			};
 			app.selectColor = function()

@@ -43,13 +43,14 @@ class ProductController extends BaseController
 				$customer->country   = Input::get('country');
 				$customer->save();
 			}
-			$order = new Order;
+			return Response::json( $customer );
+			/*$order = new Order;
 			$order->customer_id = $customer->id;
 			$order->colour    = Input::get('colour');
 			$order->quantity = Input::get('quantity');
 			$order->product  = Input::get('product');
 			$order->save();
-			return Response::json( $order );
+			return Response::json( $order );*/
 		}
 	}
 	

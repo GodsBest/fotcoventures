@@ -29,7 +29,7 @@ class ProductController extends BaseController
 			$customer = Customer::where('email', '=', Input::get('email'));
 			if( $customer->count() )
 			{
-				$customer = $customer->count() > 1 ? $customer[0] : $customer;
+				$customer = $customer->first(); //$customer->count() > 1 ? $customer[0] : $customer;
 			}
 			else
 			{

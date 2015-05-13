@@ -159,7 +159,7 @@
 						)
 					);	
 				});
-				alert( $('.ordernow',this).data('product') );
+				//alert( $('.ordernow',this).data('product') );
 				app.modal.find('div.modal-body')
 				.html( row.clone().html( $('a',this).html() ) ).find('>div.row > span').addClass('col-sm-6').end()
 				.prepend( frm ).end().modal('show');				

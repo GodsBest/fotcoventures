@@ -49,7 +49,7 @@ class ProductController extends BaseController
 			$order->quantity = Input::get('quantity');
 			$order->product  = Input::get('product');
 			$order->save();
-			return Response::json( Input::all() );
+			return Response::json( $order );
 		}
 	}
 	

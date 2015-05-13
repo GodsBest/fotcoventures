@@ -45,7 +45,7 @@ class ProductController extends BaseController
 			}
 			$order = new Order;
 			$order->customer_id = $customer->id;
-			$order->color    = Input::get('color');
+			$order->color    = Input::get('colour');
 			$order->quantity = Input::get('quantity');
 			$order->product  = Input::get('product');
 			$order->save();

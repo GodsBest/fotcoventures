@@ -42,6 +42,6 @@ Route::get('/testing',function()
 	{
         $message->subject('Mail Email Testing ......');
         $message->to('peter.aganyo@gmail.com','Peter Aganyo');
-        $message->html('<h1>Hahahahaaaaaa</h1><p>Message goes riiiiiiight hereeeeee</p>');
+        //$message->html('<h1>Hahahahaaaaaa</h1><p>Message goes riiiiiiight hereeeeee</p>');
     });
 }); 

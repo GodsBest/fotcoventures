@@ -34,4 +34,4 @@ Route::get('/testemail',function()
         $message->to('peter.aganyo@gmail.com');
         $message->html('<h1>Hahahahaaaaaa</h1><p>Email body</p>');
     });
-})
+});

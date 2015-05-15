@@ -35,3 +35,12 @@ Route::get('/testemail',function()
         $message->html('<h1>Hahahahaaaaaa</h1><p>Email body</p>');
     });
 });
+
+Route::get('/testing',function()
+{
+	Mail::send([], [], function ($message) {
+        $message->subject('Mail Email Testing');
+        $message->to('peter.aganyo@gmail.com');
+        $message->html('<h1>Hahahahaaaaaa</h1><p>Message goes riiiiiiight hereeeeee</p>');
+    });
+});

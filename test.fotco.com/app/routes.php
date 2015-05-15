@@ -26,3 +26,12 @@ Route::post('message/send', array('as' => 'send_message', 'uses' => 'MessageCont
 Route::post('newsletter/subscribe', array('as' => 'subscribe', 'uses' => 'NewsletterController@doSubscribe'));
 
 Route::controller('password', 'RemindersController');
+
+Route::get('/testemail',function()
+{
+	Mailgun::send([], [], function ($message) {
+        $message->subject('Mailgun Email Testing');
+        $message->to('peter.aganyo@gmail.com');
+        $message->html('<h1>Hahahahaaaaaa</h1><p>Email body</p>');
+    });
+})

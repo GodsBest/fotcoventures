@@ -38,7 +38,8 @@ Route::get('/testemail',function()
 
 Route::get('/testing',function()
 {
-	Mail::send('emails.welcome', array('key' => 'value'), function($message)
+	$mess = '<h1>Hahahahaaaaaa</h1><p>Message goes riiiiiiight hereeeeee</p>';
+	Mail::send('emails.welcome', array('key' => 'value','mess' => $mess), function($message)
 	{
         $message->subject('Mail Email Testing ......');
         $message->to('peter.aganyo@gmail.com','Peter Aganyo');
